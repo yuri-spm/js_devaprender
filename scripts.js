@@ -1,14 +1,9 @@
-// Falsy
-// undefined
-// 0
-//false
-// ''
-// NaN - not a number
-//Trhuthy não são os valores acima
+let a = 'vermelho';
+let b = 'azul';
 
-//let corPersonalizada = 'vermelho';
-let corPersonalizada = '';
-let corPadrao = 'azul';
-let corPerfil = corPersonalizada || corPadrao
+let c = a;
+a = b;
+b = c;
 
-console.log(corPerfil);
+console.log(a);
+console.log(b);
