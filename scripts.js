@@ -1,25 +1,7 @@
-// // Operadores Aritiméticos(matemáticos)
-// let salario = 100;
+let valorTecladoGamer = 100
 
-// //+ , - , *, / , **
+valorTecladoGamer += valorTecladoGamer;
+console.log(valorTecladoGamer);
 
-// console.log(salario + salario);
-// console.log(salario - salario);
-// console.log(salario * salario);
-// console.log(salario / salario);
-// console.log(5 ** salario);
-
-// ++ --
-let idade = 18;
-console.log(idade++);
-
-console.log(idade);
-
-console.logo(++idade);
-
-
-console.log(idade--);
-
-console.log(idade);
-
-console.logo(--idade);
+valorTecladoGamer -= valorTecladoGamer;
+console.log(valorTecladoGamer);
