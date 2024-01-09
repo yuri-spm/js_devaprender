@@ -1,13 +1,5 @@
-// let idade = 5;
-// console.log(idade);
-// let altura = 180;
-// console.log(altura);
+const valorIngressoAdulto = 20;
+valorIngressoAdulto = 40;
+console.log(valorIngressoAdulto);
 
-// let nome = 'Yuri do Monte';
-// console.log(nome);
-
-let nome = 'Yuri do Monte';
-let idade = 32;
-let profissiao = 'Desenvolvedor';
-
-console.log(nome, idade, profissiao)
+//const não permite que o valor seja alterado.
