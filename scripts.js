@@ -1,8 +1,18 @@
-//Numeros primitivos
+
 let nome = "Yuri"; //string literal
 let idade = 25; //number literal
 let estaAprovado = true; //boolean
 let sobrenome = undefined; //undefined
-let corSelecionada = null //Redefinir um valor
 
-//para descobrir o tipo da variavel utilizar typeof
+let pessoa = {
+    nome: 'Yuri',
+    idade: '32',
+    estaAprovado: false,
+    sobrenome: 'do Monte'
+
+};
+
+console.log(pessoa);
+console.log(pessoa.nome)
+
+
