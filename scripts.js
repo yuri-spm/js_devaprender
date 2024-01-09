@@ -1,10 +1,7 @@
-// Operadores de igualdade
-// Igualdade escrita
+// Operador Ternário
+// Imagine um cliente, 100 premium, comum
 
-console.log(1 === 1);
-console.log('1' === 1);
+let pontos = 200;
+let tipo = pontos > 100 ? 'premium' : 'comum';
 
-// Igualdade solta
-
-console.log(1 == 1);
-console.log( '1' == 1);
+console.log(tipo);
