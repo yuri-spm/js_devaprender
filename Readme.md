@@ -22,3 +22,29 @@ Aula-08 - Tipos de funções
 Aula-09 - Operadores Javascript
 
 Aula-10 - Operadores aritiméticos
+
+Aula-11 - Operadores de atribuição
+
+Aula-12 - Operadores de igualdade
+
+Aula-13 - Operadores ternário
+
+Aula-14 - Operadores logicos
+
+Aula-15 - Comparação com valores não boleanos
+
+Aula-16 - Trocando valores de variaveis
+
+Aula-17 - If..Else
+
+Aula-18 - Switch.. Case
+
+Aula-19 - Laço For
+
+Aula-20 - Loop While
+
+Aula-21 - Do While
+
+Aula-21 - For in
+
+Aula-21 - For of
