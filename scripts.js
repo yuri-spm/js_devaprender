@@ -1,9 +1,20 @@
-let a = 'vermelho';
-let b = 'azul';
+let permissao;
 
-let c = a;
-a = b;
-b = c;
+permissao = 'gerente';
 
-console.log(a);
-console.log(b);
+switch(permissao){
+    case 'comum':
+    console.log('usuario comum');
+    break;
+
+    case 'comum':
+    console.log('usuario comum');
+    break;
+
+    case 'diretor':
+    console.log('diretor');
+    break;
+
+    default:
+    console.log('usuario não reconhecido');
+}
