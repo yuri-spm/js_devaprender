@@ -45,6 +45,28 @@ Aula-20 - Loop While
 
 Aula-21 - Do While
 
-Aula-21 - For in
+Aula-22 - For in
 
-Aula-21 - For of
+Aula-23 - For of
+
+Aula-24 - Maximo entre dois valores
+
+Aula-25 - FizzBuzz
+
+Aula-26 - Medido de Velocidade
+
+Aula-27 - Par ou Ímpar
+
+Aula-28 - Encontre a string
+
+Aula-29 - Multiplos 3 e 5
+
+Aula-30 - Media de nota escolar
+
+Aula-31 - Contador de asteristicos
+
+Aula-32 - Numeros Primos
+
+Aula-33 - Introdução  à Objetos
+
+
