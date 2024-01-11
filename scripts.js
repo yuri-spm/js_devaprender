@@ -1,22 +1,18 @@
-function verifyValue(a, b){
+const resultado = fizzBuzz(29);
+console.log(resultado);
 
 
-    if(a > b){
-        console.log(a + ' e maior que ' + b);
-    }else if (b > a){
-        console.log(b + ' e maior que ' + a);
-    }else{
-        console.log('Os numeros são iguais');
-    }
-}
-
-verifyValue(10, 8);
-
-let valorMaior = max(1,2);
-console.log(valorMaior);
-
-function max(a,b){
-    if(a > b)
-        return a;
-    return b;
+function fizzBuzz(entrada){
+    if(entrada % 3 === 0 && entrada % 5 !== 0 )
+        return 'Fizz';
+    if(entrada % 5 === 0 && entrada % 3 !== 0 )
+        return 'Buzz';
+    if(entrada % 3 === 0 && entrada % 5 === 0)
+        return 'FizzBuzz';
+    if (entrada % 3 !== 0 && entrada % 5 !== 0 && typeof(entrada) === "number" )
+    return 'Não e divisivel por 3 e por 5'
+    if( typeof(entrada) !== "number")
+        return 'Não e um numero'
+    
+    
 }
