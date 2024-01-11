@@ -1,13 +1,22 @@
-// let idade = 5;
-// console.log(idade);
-// let altura = 180;
-// console.log(altura);
+function verifyValue(a, b){
 
-// let nome = 'Yuri do Monte';
-// console.log(nome);
 
-let nome = 'Yuri do Monte';
-let idade = 32;
-let profissiao = 'Desenvolvedor';
+    if(a > b){
+        console.log(a + ' e maior que ' + b);
+    }else if (b > a){
+        console.log(b + ' e maior que ' + a);
+    }else{
+        console.log('Os numeros são iguais');
+    }
+}
 
-console.log(nome, idade, profissiao)
+verifyValue(10, 8);
+
+let valorMaior = max(1,2);
+console.log(valorMaior);
+
+function max(a,b){
+    if(a > b)
+        return a;
+    return b;
+}
