@@ -1,18 +1,15 @@
-const resultado = fizzBuzz(29);
-console.log(resultado);
+const filme = {
+    titulo : 'Vingadores',
+    ano: 208,
+    diretor: 'Yuri',
+    personagem: 'Thor'
+}
 
-
-function fizzBuzz(entrada){
-    if(entrada % 3 === 0 && entrada % 5 !== 0 )
-        return 'Fizz';
-    if(entrada % 5 === 0 && entrada % 3 !== 0 )
-        return 'Buzz';
-    if(entrada % 3 === 0 && entrada % 5 === 0)
-        return 'FizzBuzz';
-    if (entrada % 3 !== 0 && entrada % 5 !== 0 && typeof(entrada) === "number" )
-    return 'Não e divisivel por 3 e por 5'
-    if( typeof(entrada) !== "number")
-        return 'Não e um numero'
-    
-    
+exibiPropriedades(filme);
+function exibiPropriedades(obj){
+   for(string in obj){
+     if(typeof(obj[string]) === 'string'){
+        console.log(string, obj[string]);
+     }
+   }
 }
