@@ -1,18 +1,14 @@
-exibirnumerosPrimos(15);
-
-function exibirnumerosPrimos(divi){
-    for(S = 2; S <= divi; S++){
-        if(isPrimos(S)){
-            console.log(S);
+function criarCeular(marcaCelular, tamanhoTela, capacidadeBateria ){
+    return celular =  {
+        marcaCelular,
+        tamanhoTela,
+        capacidadeBateria,
+        ligar(){
+            console.log("Fazendo ligação ..")
         }
     }
-} 
-
-function isPrimos(S){
-    for(i = 2; i < S; i++){
-        if(S % i === 0){
-            return false;
-        }
-    }
-    return S > 1;
+    
 }
+
+celular1 = criarCeular('Samsung', 5.5, 5000);
+console.log(celular1);
