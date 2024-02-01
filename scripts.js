@@ -1,22 +1,18 @@
-// Oque são objetos?
-// Chave-Valor (Key-Value pair)
+exibirnumerosPrimos(15);
 
-
-let marcaCelular = 'LG';
-let tamanhoTelaVertical = 155;
-let tamanhoTelaHorizontal = 75;
-let capacidadeBateria = 5000;
-
-const celular =  {
-    marcaCelular: "Asus",
-    tamanhoTela: {
-        vertical: 155,
-        horizontal: 75
-    },
-    capacidadeBateria: 5000,
-    ligar: function(){
-        console.log("Fazendo ligação ..")
+function exibirnumerosPrimos(divi){
+    for(S = 2; S <= divi; S++){
+        if(isPrimos(S)){
+            console.log(S);
+        }
     }
-}
+} 
 
-celular.ligar();
+function isPrimos(S){
+    for(i = 2; i < S; i++){
+        if(S % i === 0){
+            return false;
+        }
+    }
+    return S > 1;
+}
